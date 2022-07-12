@@ -97,7 +97,7 @@ export function Example1(): React.ReactElement<{}> {
           return exhaustiveCheck(p, true);
       }
     },
-    unitLables: unitLabels,
+    unitLabels: unitLabels,
   };
 
   const sel = usePropertiesSelector(selOptions);

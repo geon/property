@@ -85,7 +85,7 @@ export type UsePropertiesSelectorOptions<TPropertyDef, TPropertyValueDef> = {
   readonly itemComparer?: ItemComparer<TPropertyValueDef>;
   readonly propertyComparer?: (a: TPropertyDef, b: TPropertyDef) => number;
 
-  readonly unitLables: UnitLabels;
+  readonly unitLabels: UnitLabels;
 };
 
 export type BasePropertyInfo = {
@@ -232,7 +232,7 @@ function createSelectorHookInfo<TPropertyDef, TPropertyValueDef>(
     getItemFilter,
     itemComparer,
     getPropertyInfo,
-    unitLables,
+    unitLabels,
   } = options;
 
   const propertyInfo = getPropertyInfo(property);
@@ -296,7 +296,7 @@ function createSelectorHookInfo<TPropertyDef, TPropertyValueDef>(
           getSelectableFormats: () => {
             return formatsArrayToZipList(propertyInfo.selectableFormats ?? [], propertyInfo.selectedFormat);
           },
-          unitLabels: unitLables,
+          unitLabels: unitLabels,
         }),
       };
     }

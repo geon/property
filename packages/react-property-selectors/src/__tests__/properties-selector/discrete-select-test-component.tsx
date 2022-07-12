@@ -130,7 +130,7 @@ export function DiscreteSelectTestComponent({
       };
       return retVal;
     },
-    unitLables: unitLabels,
+    unitLabels: unitLabels,
     autoSelectSingleValidValue,
     lockSingleValidValue,
   };

@@ -128,7 +128,7 @@ export function Example2(): React.ReactElement<{}> {
       };
       return retVal;
     },
-    unitLables: unitLabels,
+    unitLabels: unitLabels,
     autoSelectSingleValidValue: autoSelectSingleValidValue,
     lockSingleValidValue: lockSingleValidValue,
   };
