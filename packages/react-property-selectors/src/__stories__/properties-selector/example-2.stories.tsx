@@ -95,7 +95,7 @@ type UnitLabels = {
 const unitLabels: UnitLabels = {
   Meter: "m",
   CentiMeter: "cm",
-  Millimeter: "mm",
+  MilliMeter: "mm",
 };
 
 export function Example2(): React.ReactElement<{}> {

@@ -32,7 +32,7 @@ export function Example1(): React.ReactElement<{}> {
   const unitLabels: UnitLabels = {
     Meter: "m",
     CentiMeter: "cm",
-    Millimeter: "mm",
+    MilliMeter: "mm",
   };
 
   const selOptions: UsePropertiesSelectorOptions<MyPropertyDef, MyPropertyValueDef> = {

@@ -55,7 +55,7 @@ export function exampleProductProperties(): {
           { unit: units.Meter, decimalCount: 3 },
           { unit: units.CentiMeter, decimalCount: 1 },
           { unit: units.CentiMeter, decimalCount: 2 },
-          { unit: units.Millimeter, decimalCount: 1 },
+          { unit: units.MilliMeter, decimalCount: 1 },
         ],
       },
       {

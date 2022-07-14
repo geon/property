@@ -23,13 +23,13 @@ export function Example1(): React.ReactElement<{}> {
     { unit: units.Meter, decimalCount: 3 },
     { unit: units.CentiMeter, decimalCount: 1 },
     { unit: units.CentiMeter, decimalCount: 2 },
-    { unit: units.Millimeter, decimalCount: 1 },
+    { unit: units.MilliMeter, decimalCount: 1 },
   ];
 
   const unitLabels: UnitLabels = {
     Meter: "m",
     CentiMeter: "cm",
-    Millimeter: "mm",
+    MilliMeter: "mm",
   };
 
   const test: StateX = {

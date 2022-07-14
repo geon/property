@@ -35,13 +35,13 @@ export function Example1(): React.ReactElement<{}> {
     { unit: units.Meter, decimalCount: 3 },
     { unit: units.CentiMeter, decimalCount: 0 },
     { unit: units.CentiMeter, decimalCount: 1 },
-    { unit: units.Millimeter, decimalCount: 0 },
+    { unit: units.MilliMeter, decimalCount: 0 },
   ];
 
   const unitLabels: UnitLabels = {
     Meter: "m",
     CentiMeter: "cm",
-    Millimeter: "mm",
+    MilliMeter: "mm",
   };
 
   const [state, setState] = useState<State>({
